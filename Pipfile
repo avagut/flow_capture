@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+
+[packages]
+flask = "*"
+pytest = "*"
+pyflakes = "*"
+pycodestyle = "*"
+pydocstyle = "*"
+splinter = "*"
+pytest-splinter = "*"
+selenium = "*"
+pytest-flask = "*"
+pytest-mock = "*"
+pydotenv = "*"
+python-dotenv = "*"
+
+[requires]
+python_version = "3.6"

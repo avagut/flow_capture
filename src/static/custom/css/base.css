@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One&display=swap');
+
+body {
+    background-color: #F8F9FA;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Muli', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    background-color: red;
+    min-height: 100%;
+}
+
+.sidenav {
+    background-color: lightgray;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.content {
+    background-color: lightblue;
+    padding: 10px;
+    -webkit-flex: 5;
+    flex: 5;
+    height: 2000px;
+}
+
+.nav-bar {
+    margin-top: 40px;
+    padding-left: 0;
+    background-color: #F8F9FA;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    align-items: flex-end;
+}
+
+.nav-logo-objects {
+    display: flex;
+}
+
+.nav-logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-right: 70px;
+}
+
+.nav-logo-main-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.nav-logo-tagline {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 21px;
+    color: darkslategrey;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+    padding: 0px;
+    /* align-content:  */
+    align-items: stretch;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin: 10px 15px;
+    color: #000;
+    padding: 5px 20px;
+}
+
+.nav-item a:hover {
+    background-color: #FFF;
+    background-color: #F8F9FA;
+}
+
+.nav-item:hover a {
+    color: #F16821;
+}
